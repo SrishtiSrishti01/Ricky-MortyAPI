@@ -1,0 +1,23 @@
+.nav-bar {
+  display: flex;
+  background-color: rgb(179, 174, 174);
+}
+
+.listNavBar {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.listNavBar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.list > ul {
+  display: flex;
+  margin: auto;
+}

@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(70, 72, 72);
+}
+
+.card {
+  box-sizing: border-box;
+  display: flex;
+  width: 620px;
+  max-height: fit-content;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 50px;
+  background-color: rgb(177, 177, 246);
+  box-shadow: 10px 12px 0px 1px rgba(244, 244, 250, 0.5);
+}
+
+.content p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.card img {
+  height: 100%;
+  width: 80%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .location {
+  color: rgb(62, 89, 105);
+}
